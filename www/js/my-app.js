@@ -71,12 +71,12 @@ $$(document).on('page:init', '.page[data-name="about"]', function (e) {
           temp_ma = esto[i].weather.morning_temp;
           $$('#temp_m').html(temp_ma);
           desc_ma = esto[i].weather.morning_desc;
-          $$('#desc_m').html(desc_ma);
+          $$('#desc_m').text(desc_ma);
 
           temp_ta = esto[i].weather.afternoon_temp;
           $$('#temp_t').html(temp_ta);
           desc_ta = esto[i].weather.afternoon_desc;
-          $$('#desc_t').html(desc_ta);
+          $$('#desc_t').text(desc_ta);
 
       }
 
